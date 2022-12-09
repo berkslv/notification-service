@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Notify.Application.Abstract;
+using Notify.Entity;
 
 namespace Notify.API.Controllers;
 
@@ -16,11 +17,19 @@ public class NotifyController : ControllerBase
         _mailClient = mailClient;
     }
 
-    [HttpGet("/send-mail")]
-    public IActionResult Get()
+    [HttpPost("/verify-account")]
+    public async Task<IActionResult> VerifyEmailAccount(VerifyEmail verifyEmail)
     {
-        _mailClient.SendMail();
+        var result = await _mailClient.VerifyEmailAccount(verifyEmail);
 
-        return Ok("Hello world!");
+        return StatusCode((int)result.HttpStatusCode, result);
+    }
+
+    [HttpPost("/send-mail")]
+    public async Task<IActionResult> SendMail(Email email)
+    {
+        var result = await _mailClient.SendMail(email);
+
+        return StatusCode((int)result.HttpStatusCode, result);
     }
 }
