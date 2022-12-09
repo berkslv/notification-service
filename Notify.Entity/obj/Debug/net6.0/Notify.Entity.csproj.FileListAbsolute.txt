@@ -1,0 +1,12 @@
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/bin/Debug/net6.0/Notify.Entity.deps.json
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/bin/Debug/net6.0/Notify.Entity.dll
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/bin/Debug/net6.0/Notify.Entity.pdb
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/obj/Debug/net6.0/Notify.Entity.csproj.AssemblyReference.cache
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/obj/Debug/net6.0/Notify.Entity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/obj/Debug/net6.0/Notify.Entity.AssemblyInfoInputs.cache
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/obj/Debug/net6.0/Notify.Entity.AssemblyInfo.cs
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/obj/Debug/net6.0/Notify.Entity.csproj.CoreCompileInputs.cache
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/obj/Debug/net6.0/Notify.Entity.dll
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/obj/Debug/net6.0/refint/Notify.Entity.dll
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/obj/Debug/net6.0/Notify.Entity.pdb
+/Users/berkslv/Documents/project/notification-service/Notify.Entity/obj/Debug/net6.0/ref/Notify.Entity.dll

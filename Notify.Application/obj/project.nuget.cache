@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "0zHc93AmcslhQyvh20oJ+7Vaa+8cOh47DqhZ7qCPJDrDR6ss0o4i8Z1pat042vSD3syWhXHHyT5lqtsQ/bpLqA==",
+  "success": true,
+  "projectFilePath": "/Users/berkslv/Documents/project/notification-service/Notify.Application/Notify.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/berkslv/.nuget/packages/autofac/6.5.0/autofac.6.5.0.nupkg.sha512",
+    "/Users/berkslv/.nuget/packages/awssdk.core/3.7.102.1/awssdk.core.3.7.102.1.nupkg.sha512",
+    "/Users/berkslv/.nuget/packages/awssdk.simpleemail/3.7.100.33/awssdk.simpleemail.3.7.100.33.nupkg.sha512",
+    "/Users/berkslv/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

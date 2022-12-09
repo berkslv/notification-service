@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/berkslv/Documents/project/notification-service/Notify.API/Notify.API.csproj": {}
+  },
+  "projects": {
+    "/Users/berkslv/Documents/project/notification-service/Notify.API/Notify.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/berkslv/Documents/project/notification-service/Notify.API/Notify.API.csproj",
+        "projectName": "Notify.API",
+        "projectPath": "/Users/berkslv/Documents/project/notification-service/Notify.API/Notify.API.csproj",
+        "packagesPath": "/Users/berkslv/.nuget/packages/",
+        "outputPath": "/Users/berkslv/Documents/project/notification-service/Notify.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/berkslv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/berkslv/Documents/project/notification-service/Notify.Application/Notify.Application.csproj": {
+                "projectPath": "/Users/berkslv/Documents/project/notification-service/Notify.Application/Notify.Application.csproj"
+              },
+              "/Users/berkslv/Documents/project/notification-service/Notify.Entity/Notify.Entity.csproj": {
+                "projectPath": "/Users/berkslv/Documents/project/notification-service/Notify.Entity/Notify.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/berkslv/Documents/project/notification-service/Notify.Application/Notify.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/berkslv/Documents/project/notification-service/Notify.Application/Notify.Application.csproj",
+        "projectName": "Notify.Application",
+        "projectPath": "/Users/berkslv/Documents/project/notification-service/Notify.Application/Notify.Application.csproj",
+        "packagesPath": "/Users/berkslv/.nuget/packages/",
+        "outputPath": "/Users/berkslv/Documents/project/notification-service/Notify.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/berkslv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/berkslv/Documents/project/notification-service/Notify.Entity/Notify.Entity.csproj": {
+                "projectPath": "/Users/berkslv/Documents/project/notification-service/Notify.Entity/Notify.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.SimpleEmail": {
+              "target": "Package",
+              "version": "[3.7.100.33, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/berkslv/Documents/project/notification-service/Notify.Entity/Notify.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/berkslv/Documents/project/notification-service/Notify.Entity/Notify.Entity.csproj",
+        "projectName": "Notify.Entity",
+        "projectPath": "/Users/berkslv/Documents/project/notification-service/Notify.Entity/Notify.Entity.csproj",
+        "packagesPath": "/Users/berkslv/.nuget/packages/",
+        "outputPath": "/Users/berkslv/Documents/project/notification-service/Notify.Entity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/berkslv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
